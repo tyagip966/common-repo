@@ -1,4 +1,4 @@
-module common
+module github/tyagip966/common
 
 go 1.14
 
