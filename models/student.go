@@ -1,9 +1,7 @@
 package models
 
-import "github.com/jinzhu/gorm"
-
 type Student struct {
-	gorm.Model
+	Id             int    `json:"id"`
 	Name           string `json:"name"`
 	Age            string `json:"age"`
 	Standard       string `json:"standard"`
